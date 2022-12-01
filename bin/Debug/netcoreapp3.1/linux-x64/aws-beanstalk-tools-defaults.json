@@ -1,0 +1,20 @@
+
+{
+    "region" : "us-east-1",
+    "configuration" : "Debug",
+    "framework"     : "netcoreapp3.1",
+    "self-contained" : false,
+    "application"    : "EngineeringDesignsSystem",
+    "environment"    : "EngineeringDesignsSystem-prod",
+    "enable-xray"    : false,
+    "enhanced-health-type" : "basic",
+    "additional-options"   : "",
+    "solution-stack"       : "64bit Amazon Linux 2 v2.3.1 running .NET Core",
+    "environment-type"     : "SingleInstance",
+    "cname"                : "bim360issues-prod",
+    "instance-type"        : "t3a.medium",
+    "key-pair"             : "rico3d",
+    "instance-profile"     : "aws-elasticbeanstalk-ec2-role",
+    "service-role"         : "aws-elasticbeanstalk-service-role",
+    "proxy-server"         : "nginx"
+}

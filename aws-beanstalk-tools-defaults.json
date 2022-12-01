@@ -1,0 +1,20 @@
+
+{
+    "region" : "us-east-1",
+    "configuration" : "Debug",
+    "framework"     : "netcoreapp3.1",
+    "self-contained" : false,
+    "application"    : "bim360issues",
+    "environment"    : "bim360issues-prod",
+    "enable-xray"    : false,
+    "enhanced-health-type" : "basic",
+    "additional-options"   : "\"aws:autoscaling:launchconfiguration,SecurityGroups\"=\"sg-087cd56149dba0d11\";\"aws:ec2:vpc,Subnets\"=\"subnet-096fc2f7bb83ee853\"",
+    "solution-stack"       : "64bit Amazon Linux 2 v2.4.0 running .NET Core",
+    "environment-type"     : "SingleInstance",
+    "cname"                : "bim360issues-prod",
+    "instance-type"        : "t3a.medium",
+    "key-pair"             : ".ppk",
+    "instance-profile"     : "aws-elasticbeanstalk-ec2-role",
+    "service-role"         : "aws-elasticbeanstalk-service-role",
+    "proxy-server"         : "nginx"
+}
